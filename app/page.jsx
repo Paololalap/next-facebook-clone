@@ -14,6 +14,7 @@ export default function LoginPage() {
   const [showPassword, setShowPassword] = useState(false);
   const emailRef = useRef(null);
 
+  const router = useRouter();
 
   const handleSubmit = (e) => {
     e.preventDefault();
