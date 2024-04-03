@@ -2,12 +2,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 // import images
 import Logo from "@/public/logo.svg";
 import eyeIcon from "@/public/show.png";
 import hideIcon from "@/public/hide.png";
-import { useRouter } from "next/navigation";
 
 export default function LoginPage() {
   const [password, setPassword] = useState();
