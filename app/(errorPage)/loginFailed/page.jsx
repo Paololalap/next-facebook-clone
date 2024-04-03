@@ -67,7 +67,7 @@ export default function LoginFailedPage() {
 
     try {
       // Sending a POST request to create a new user
-      const res = await fetch("http://localhost:3000/api/createUser", {
+      const res = await fetch("api/createUser", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
